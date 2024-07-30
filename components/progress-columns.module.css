@@ -1,0 +1,100 @@
+.designHomePage {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.developAndIntegrate {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.inProgressItems {
+  gap: var(--gap-9xs);
+}
+.inProgressDetails,
+.inProgressItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.medium {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+}
+.inProgressUrgency {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-orange);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.emptyProgressIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emptyProgressDate {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 83px;
+}
+.emptyProgressUrgency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+}
+.inProgressDetailsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.hrAgo {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 53px;
+  white-space: nowrap;
+}
+.hrAgoWrapper,
+.progressColumns {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-159xl) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.progressColumns {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}

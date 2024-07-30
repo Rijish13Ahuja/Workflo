@@ -8,7 +8,7 @@ import {
   Button,
 } from "@mui/material";
 import { useRouter } from "next/router";
-import styles from "./main.module.css";
+import styles from "./main2.module.css";
 
 export type MainType = {
   className?: string;

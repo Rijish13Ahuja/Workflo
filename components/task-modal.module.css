@@ -1,0 +1,324 @@
+.frameIcon,
+.frameIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.columnContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.share {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 44px;
+}
+.frameIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.shareFavoriteActions {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-sm);
+}
+.favorite {
+  width: calc(100% - 64px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 19px;
+  flex: 1;
+  position: relative;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 37px;
+  padding: 0;
+}
+.frameIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.shareFavoriteActions1,
+.shareFavoriteColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shareFavoriteActions1 {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  padding: var(--padding-5xs);
+  gap: var(--gap-sm);
+}
+.shareFavoriteColumn {
+  width: 230px;
+  gap: var(--gap-base);
+}
+.columns,
+.title {
+  align-self: stretch;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.propertyControlSet {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.status {
+  position: relative;
+  display: inline-block;
+  min-width: 49px;
+}
+.propertyLabelSet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameIcon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.priority {
+  position: relative;
+  display: inline-block;
+  min-width: 54px;
+}
+.propertyLabelSet1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.frameIcon5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.deadline {
+  position: relative;
+  display: inline-block;
+  min-width: 67px;
+}
+.propertyLabelSet2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-6xl);
+}
+.frameIcon6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.description {
+  position: relative;
+  display: inline-block;
+  min-width: 87px;
+}
+.propertyLabelSet3,
+.propertyLabels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.propertyLabels {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 136px;
+}
+.notSelected,
+.notSelected1,
+.notSelected2,
+.notSelected3 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 97px;
+}
+.placeholderValues {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 97px;
+  color: var(--color-silver-100);
+}
+.customProperties,
+.propertyFields {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.propertyFields {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-310xl) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+.customProperties {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.addPropertyControl {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addCustomProperty {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.addProperty {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.layout,
+.propertiesColumn {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.layout {
+  gap: var(--gap-8xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-lightgray-100);
+  font-family: var(--font-barlow);
+}
+.emptyColumn {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emptyColumn,
+.startWritingOr {
+  align-self: stretch;
+  position: relative;
+}
+.taskModal {
+  width: 670px;
+  background-color: var(--color-white);
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-494xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 625px) {
+  .placeholderValues,
+  .propertyLabels {
+    flex: 1;
+  }
+  .propertyFields {
+    flex-wrap: wrap;
+    padding-right: var(--padding-145xl);
+    box-sizing: border-box;
+  }
+  .customProperties {
+    gap: var(--gap-base);
+  }
+  .propertiesColumn {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .propertyFields {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .taskModal {
+    gap: var(--gap-base);
+  }
+}

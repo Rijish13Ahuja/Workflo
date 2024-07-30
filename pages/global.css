@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
@@ -17,16 +17,33 @@ body {
   --font-size-29xl: 48px;
   --font-size-10xl: 29px;
   --font-size-19xl: 38px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
 
   /* Colors */
   --color-lightgray: #cecece;
+  --color-lightgray-100: #cdcdcd;
   --color-black: #000;
   --color-darkslateblue: #0054a1;
+  --color-dimgray-100: #676767;
   --color-dimgray: #606060;
+  --color-dimgray-200: #555;
   --color-darkgray: #999;
   --color-darkslategray: #2d2d2d;
   --color-slateblue: #4534ac;
+  --color-whitesmoke-100: #f9f9f9;
+  --color-whitesmoke-200: #f4f4f4;
   --color-whitesmoke: #ebebeb;
+  --color-white: #fff;
+  --color-gainsboro-100: #dedede;
+  --color-gray-100: #868686;
+  --color-gray-200: #797979;
+  --color-gray-300: #757575;
+  --color-gray-400: #080808;
+  --color-orange: #ffa235;
+  --color-salmon: #ff6b6b;
+  --color-silver-100: #c1bdbd;
+  --color-silver-200: #c0bdbd;
 
   /* Gaps */
   --gap-13xl: 32px;
@@ -36,8 +53,16 @@ body {
   --gap-2xl: 21px;
   --gap-3xl: 22px;
   --gap-5xl: 24px;
-  --gap-xl: 20px;
   --gap-4xl-3: 23.3px;
+  --gap-xl: 20px;
+  --gap-smi: 13px;
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-3xs: 10px;
+  --gap-8xl: 27px;
+  --gap-19xl: 38px;
+  --gap-lgi: 19px;
+  --gap-6xl: 25px;
 
   /* Paddings */
   --padding-101xl: 120px;
@@ -49,12 +74,24 @@ body {
   --padding-10xl: 29px;
   --padding-26xl: 45px;
   --padding-3xl: 22px;
-  --padding-base: 16px;
-  --padding-xs: 12px;
   --padding-71xl: 90px;
   --padding-359xl: 378px;
+  --padding-13xl: 32px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-mini: 15px;
+  --padding-xs: 12px;
+  --padding-7xs: 6px;
+  --padding-5xs: 8px;
+  --padding-159xl: 178px;
+  --padding-4xl: 23px;
+  --padding-9xs: 4px;
+  --padding-494xl: 513px;
+  --padding-310xl: 329px;
+  --padding-145xl: 164px;
 
   /* Border radiuses */
   --br-base: 16px;
   --br-5xs: 8px;
+  --br-9xs: 4px;
 }

@@ -1,0 +1,146 @@
+.emptyTaskHeader,
+.toDo {
+  position: relative;
+  flex-shrink: 0;
+}
+.toDo {
+  width: 126px;
+  display: inline-block;
+}
+.emptyTaskHeader {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  min-height: 24px;
+}
+.taskHeaders {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.implementUserAuthentication {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.developAndIntegrate {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.taskItems {
+  gap: var(--gap-9xs);
+}
+.taskDetailsContainer,
+.taskItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.urgent {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.taskUrgency {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-salmon);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.emptyTaskIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emptyTaskDate {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 83px;
+}
+.emptyUrgency,
+.taskRowContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.emptyUrgency {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+}
+.taskRowContainer {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-smi);
+}
+.hrAgo {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 53px;
+  white-space: nowrap;
+}
+.taskRows,
+.taskTime {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-159xl) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.taskRows {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.taskActions {
+  align-self: stretch;
+  height: 40px;
+  cursor: pointer;
+}
+.taskColumns {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 236px;
+  max-width: 257px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .toDo {
+    font-size: var(--font-size-base);
+  }
+}

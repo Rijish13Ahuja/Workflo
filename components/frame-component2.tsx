@@ -13,7 +13,7 @@ import {
   Button,
 } from "@mui/material";
 import { useRouter } from "next/router";
-import styles from "./frame-component2.module.css";
+import styles from "./frame-component21.module.css";
 
 export type FrameComponent2Type = {
   className?: string;

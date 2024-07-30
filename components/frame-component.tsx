@@ -8,7 +8,7 @@ import {
   Button,
 } from "@mui/material";
 import { useRouter } from "next/router";
-import styles from "./frame-component.module.css";
+import styles from "./frame-component2.module.css";
 
 export type FrameComponentType = {
   className?: string;
