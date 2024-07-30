@@ -9,19 +9,28 @@
   font-weight: 600;
   font-family: inherit;
 }
-.inputFields {
-  cursor: pointer;
-}
-.inputFields,
-.inputFields1,
-.inputFields2 {
+.credentials,
+.credentials1,
+.credentials2 {
   border: 0;
   background-color: transparent;
   align-self: stretch;
   height: 56px;
   font-family: var(--font-inter);
   font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+}
+.credentials2 {
   color: var(--color-darkgray);
+  cursor: pointer;
+}
+.inputFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
 }
 .primary {
   align-self: stretch;
@@ -29,14 +38,20 @@
   box-shadow: 0 12px 16px rgba(186, 186, 186, 0.2) inset,
     0 4px 16px rgba(0, 0, 0, 0.1);
 }
-.credentials {
-  margin: 0;
+.content,
+.formContainer {
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-4xl-3);
+}
+.formContainer {
+  margin: 0;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+}
+.content {
+  align-items: center;
 }
 .alreadyHaveAn {
   position: relative;
@@ -52,21 +67,13 @@
   cursor: pointer;
   color: var(--color-darkslateblue);
 }
-.loginInfo {
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: var(--gap-9xs);
-}
 .account,
-.loginInfo,
 .main {
   display: flex;
-  align-items: flex-start;
-}
-.account {
-  align-self: stretch;
   flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
+  gap: var(--gap-9xs);
   font-size: var(--font-size-xl);
   color: var(--color-dimgray);
   font-family: var(--font-inter);
@@ -78,6 +85,7 @@
   border: 1px solid var(--color-lightgray);
   box-sizing: border-box;
   flex-direction: column;
+  align-items: center;
   justify-content: flex-start;
   padding: var(--padding-39xl) var(--padding-40xl);
   gap: var(--gap-13xl);
@@ -93,6 +101,9 @@
   }
 }
 @media screen and (max-width: 675px) {
+  .content {
+    gap: var(--gap-2xl);
+  }
   .main {
     gap: var(--gap-base);
     padding: var(--padding-19xl) var(--padding-10xl);
@@ -112,7 +123,7 @@
   .logIn {
     font-size: var(--font-size-base);
   }
-  .loginInfo {
+  .account {
     flex-wrap: wrap;
   }
 }

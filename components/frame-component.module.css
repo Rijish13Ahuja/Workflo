@@ -9,18 +9,19 @@
   font-weight: 600;
   font-family: inherit;
 }
+.apsAConcepoDoProjetoEm,
 .frameChild {
-  cursor: pointer;
-}
-.frameChild,
-.frameItem {
   border: 0;
   background-color: transparent;
   align-self: stretch;
   height: 56px;
   font-family: var(--font-inter);
   font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+}
+.apsAConcepoDoProjetoEm {
   color: var(--color-darkgray);
+  cursor: pointer;
 }
 .frameGroup {
   align-self: stretch;

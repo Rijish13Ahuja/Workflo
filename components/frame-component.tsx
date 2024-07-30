@@ -12,23 +12,13 @@ import styles from "./frame-component.module.css";
 
 export type FrameComponentType = {
   className?: string;
-  frame309Placeholder?: string;
-
-  /** Action props */
-  onFrameInputClick?: () => void;
-  onApsAConcepoDoProjetoEmClick?: () => void;
 };
 
-const FrameComponent: NextPage<FrameComponentType> = ({
-  className = "",
-  frame309Placeholder,
-  onFrameInputClick,
-  onApsAConcepoDoProjetoEmClick,
-}) => {
+const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
   const router = useRouter();
 
-  const onFrameInputClick1 = useCallback(() => {
-    router.push("/");
+  const onApsAConcepoDoProjetoEmClick = useCallback(() => {
+    router.push("/login7");
   }, [router]);
 
   const onNewAccountTextClick = useCallback(() => {
@@ -47,7 +37,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({
           <div className={styles.frameGroup}>
             <TextField
               className={styles.frameChild}
-              placeholder={frame309Placeholder}
+              placeholder="jgardner@gmail.com"
               variant="outlined"
               sx={{
                 "& fieldset": { border: "none" },
@@ -57,17 +47,16 @@ const FrameComponent: NextPage<FrameComponentType> = ({
                   borderRadius: "8px",
                   fontSize: "20px",
                 },
-                "& .MuiInputBase-input": { color: "#999" },
+                "& .MuiInputBase-input": { color: "#606060" },
               }}
-              onClick={onFrameInputClick}
             />
             <TextField
-              className={styles.frameItem}
+              className={styles.apsAConcepoDoProjetoEm}
               placeholder="Password"
               variant="outlined"
               InputProps={{
                 endAdornment: (
-                  <img width="24px" height="24px" src="/frame.svg" />
+                  <img width="24px" height="24px" src="/placeholder.svg" />
                 ),
               }}
               sx={{
