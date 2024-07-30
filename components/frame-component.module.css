@@ -1,0 +1,127 @@
+.workflo {
+  color: var(--color-slateblue);
+}
+.welcomeToWorkfloContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameChild {
+  cursor: pointer;
+}
+.frameChild,
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 56px;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray);
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.primary {
+  align-self: stretch;
+  height: 52px;
+  box-shadow: 0 12px 16px rgba(186, 186, 186, 0.2) inset,
+    0 4px 16px rgba(0, 0, 0, 0.1);
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  margin: 0;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+}
+.frameWrapper {
+  align-items: center;
+}
+.dontHaveAn {
+  position: relative;
+}
+.span {
+  color: var(--color-black);
+}
+.newAccount {
+  height: 24px;
+  position: relative;
+  display: inline-block;
+  min-width: 127px;
+  cursor: pointer;
+  color: var(--color-darkslateblue);
+}
+.dontHaveAnAccountCreateParent,
+.welcomeToWorkfloParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}
+.welcomeToWorkfloParent {
+  width: 648px;
+  border-radius: var(--br-base);
+  background: linear-gradient(180deg, #f7f7f7, #f0f0f0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-39xl) var(--padding-40xl);
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-barlow);
+}
+@media screen and (max-width: 750px) {
+  .welcomeToWorkfloContainer {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameWrapper {
+    gap: var(--gap-2xl);
+  }
+  .dontHaveAnAccountCreateParent {
+    flex-wrap: wrap;
+  }
+  .welcomeToWorkfloParent {
+    gap: var(--gap-base);
+    padding: var(--padding-19xl) var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToWorkfloContainer {
+    font-size: var(--font-size-10xl);
+  }
+  .primary {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dontHaveAn,
+  .newAccount {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,14 @@
+.login {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #fff, #afa3ff);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-101xl) var(--padding-xl) var(--padding-409xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

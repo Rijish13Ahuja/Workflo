@@ -1,0 +1,118 @@
+.workflo {
+  color: var(--color-slateblue);
+}
+.welcomeToWorkfloContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.inputFields {
+  cursor: pointer;
+}
+.inputFields,
+.inputFields1,
+.inputFields2 {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 56px;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray);
+}
+.primary {
+  align-self: stretch;
+  height: 52px;
+  box-shadow: 0 12px 16px rgba(186, 186, 186, 0.2) inset,
+    0 4px 16px rgba(0, 0, 0, 0.1);
+}
+.credentials {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-3);
+}
+.alreadyHaveAn {
+  position: relative;
+}
+.span {
+  color: var(--color-dimgray);
+}
+.logIn {
+  position: relative;
+  display: inline-block;
+  min-width: 63px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: var(--color-darkslateblue);
+}
+.loginInfo {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.account,
+.loginInfo,
+.main {
+  display: flex;
+  align-items: flex-start;
+}
+.account {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}
+.main {
+  width: 648px;
+  border-radius: var(--br-base);
+  background: linear-gradient(180deg, #f7f7f7, #f0f0f0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-39xl) var(--padding-40xl);
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-barlow);
+}
+@media screen and (max-width: 750px) {
+  .welcomeToWorkfloContainer {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .main {
+    gap: var(--gap-base);
+    padding: var(--padding-19xl) var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToWorkfloContainer {
+    font-size: var(--font-size-10xl);
+  }
+  .primary {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .alreadyHaveAn,
+  .logIn {
+    font-size: var(--font-size-base);
+  }
+  .loginInfo {
+    flex-wrap: wrap;
+  }
+}
