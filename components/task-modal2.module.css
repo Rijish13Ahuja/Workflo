@@ -1,11 +1,11 @@
-.empty {
+.taskModalChild {
   height: 1px;
   background-color: var(--color-gainsboro-100);
   overflow: hidden;
   flex-shrink: 0;
 }
-.empty,
-.startWritingOr {
+.startWritingOr,
+.taskModalChild {
   align-self: stretch;
   position: relative;
 }
